@@ -1,0 +1,32 @@
+.main {
+    
+    opacity: 0;
+    transition: opacity .5s;
+    
+    transform: translate3d(0,0,0);
+    
+    .loaded & {
+        opacity: 1;
+    }
+        
+    &_home {
+        margin: 5em $gutter * 2;
+        @include desktop {
+            margin: 5em $vertical-spacing / 3 * 2;
+        }
+    }
+    
+    &_artist {
+        margin: 50vh $gutter * 2 5em $gutter * 2;
+        .gl & {
+            margin: 95vh $gutter * 2 5em $gutter * 2;
+        }
+        @include desktop {
+            margin: 50vh $vertical-spacing / 3 * 2 5em $vertical-spacing / 3 * 2;
+            .gl & {
+                margin: 95vh $vertical-spacing / 3 * 2 5em $vertical-spacing / 3 * 2;
+            }
+        }
+    }
+    
+}

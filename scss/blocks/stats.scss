@@ -1,0 +1,260 @@
+$margin-small: 1rem;
+$margin-medium: 2rem;
+$margin-large: 3rem;
+
+$stat-column-small: 20%;
+$stat-column-medium: 30%;
+
+.stats {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow-y: scroll;
+    z-index: 20;
+    pointer-events: none;
+    z-index: -5;
+
+    opacity: 0;
+    transition: opacity .2s;
+    
+    .loaded & {
+        opacity: 1;
+    }
+    
+    .loaded &_fade-out {
+        opacity: 0;
+    }
+    
+    .no-touch & {
+    
+        &:hover .stat {
+            opacity: .2;
+        }
+    
+    }
+    
+    &.no-blob {
+        display: none;
+    }
+    
+    &__column {
+        
+        pointer-events: visible;
+        
+        .stats_fade-out & {
+            pointer-events: none;
+        }
+        
+        .dragging-camera & {
+            pointer-events: none;
+        }
+        
+        position: absolute;
+        width: $stat-column-small;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &_1 {
+            left: 0;
+        }
+        
+        &_2 {
+            right: 0;
+        }
+        
+        @include tablet {
+            width: $stat-column-medium;
+        }
+        
+    }
+    
+    .dragging-camera & {
+        transition: opacity .2s;
+        opacity: 0;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    &__callout {
+        position: absolute;
+        left: $stat-column-small * 1.2;
+        right: $stat-column-small * 1.2;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+}
+
+.stat {
+    
+    //border: 1px solid red;
+    position: relative;
+    padding-bottom: $margin-small;
+    
+    @include tablet {
+        font-size: 13px;
+        padding-bottom: $margin-large;
+    }
+    
+    @include desktop-large {
+        font-size: 15px;
+    }
+    
+    transition: opacity .3s;
+    
+    .stats__column_1 & {
+        
+        &:first-child {
+            padding-top: $margin-small;
+            @include tablet {
+                padding-top: $margin-large;
+            }
+        }
+        
+        padding-left: $margin-small;
+        
+        @include desktop {
+            padding-left: $margin-medium;
+        }
+        
+    }
+    
+    .stats__column_2 & {
+        
+        &:last-child {
+            padding-bottom: $margin-small;
+            @include tablet {
+                padding-bottom: $margin-large;
+            }
+        }
+        
+        padding-right: $margin-small;
+        
+        @include desktop {
+            padding-right: $margin-medium;
+        }
+        
+        &:first-child {
+            padding-top: $margin-small;
+            @include tablet {
+                padding-top: $margin-large;
+            }
+        }
+        
+    }
+    
+    &__question {
+        text-align: center;
+        padding-bottom: 1em;
+        display: none;
+        @include tablet {
+            display: block;
+        }
+    }
+    
+    .no-touch & {
+        
+        &:hover {
+            opacity: 1 !important;
+        }
+        
+    }
+    
+    $answer-width-phone: 0%;
+    $answer-width-tablet: 35%;
+    $answer-width-desktop: 35%;
+    
+    &__answers {
+        height: 1em;
+        position: relative;
+        
+        @include tablet {
+            height: 1.5em;
+        }
+        
+    }
+    
+    &__answer {
+        
+        position: absolute;
+        height: 100%;
+        top: 10%;
+        
+        &_left {
+            left: 0;
+            text-align: right;
+            padding-right: .5em;
+        }
+        
+        &_right {
+            right: 0;
+            padding-left: .5em;
+            text-align: left;
+        }
+        
+        display: none;
+        
+        @include tablet {
+            
+            width: $answer-width-tablet;
+            display: block;
+            
+        }
+        
+        @include desktop {
+            
+            width: $answer-width-desktop;
+            
+        }
+        
+    }
+    
+    &__bar {
+        
+        position: absolute;
+        
+        width: 100% - ($answer-width-phone * 2);
+        height: 80%;
+        top: 10%;
+        left: $answer-width-phone;
+        
+        @include tablet {
+            
+            width: 100% - ($answer-width-tablet * 2);
+            left: $answer-width-tablet;
+            
+        }
+        
+        @include desktop {
+            
+            width: 100% - ($answer-width-desktop * 2);
+            left: $answer-width-desktop;
+            
+        }
+        
+        border: 1px solid black;
+        
+    }
+    
+    &__indicator {
+        
+        position: absolute;
+        left: 50%;
+        height: 100%;
+        width: 90%;
+        border-left: 1px solid black;
+        pointer-events: none;
+        transition: transform 1.5s;
+        
+    }
+    
+}

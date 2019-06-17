@@ -1,0 +1,63 @@
+title: Artist
+
+pages: false
+
+options:
+    template: false
+
+panel_title: name
+
+fields:
+    
+    title:
+        label: Name
+        type: text
+        required: true
+        
+    shape_id:
+        label: Shape ID
+        type: number
+        help: Like 123 in collectingeurope.net/123
+        required: true
+        width: 1/2
+
+    hide_questions:
+        label: Hide Questions
+        type: checkbox
+        help: Check this if artist has no blob / wants to hide answers
+        width: 1/2
+    
+    work_title:
+        label: Title
+        type: text
+        width: 1/2
+        required: true
+        
+    location:
+        label: Location
+        type: text
+        width: 1/2
+        required: true
+        
+    description:
+        label: Description
+        type: textarea
+        required: true
+        
+    biography:
+        label: Biography
+        type: textarea
+        width: 1/2
+        required: true
+        
+    websites:
+        label: Websites
+        type: structure
+        entry: {{url}}
+        width: 1/2
+        required: true
+        fields:
+            url:
+                label: URL
+                type: url
+                required: true

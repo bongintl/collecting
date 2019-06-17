@@ -1,0 +1,86 @@
+.artist {
+    
+    border: 1px solid black;
+    padding-bottom: $box-ratio * .5;
+    
+    @include desktop {
+        padding-bottom: $box-ratio * .333;
+    }
+    
+    &__label,
+    &__thumbnail,
+    & > canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    &__label {
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    &__thumbnail {
+        width: 132%;
+        padding-bottom: 132%;
+        background-size: 100% 100%;
+        pointer-events: none;
+        z-index: -10;
+    }
+    
+    & > canvas {
+        width: 132%;
+        display: none;
+        z-index: -10;
+    }
+    
+    &:hover {
+        .artist__thumbnail {
+            display: none;
+        }
+        & > canvas {
+            display: block;
+        }
+    }
+    
+    &__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.artist-header {
+    
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    pointer-events: none;
+    
+    .gl & {
+        height: 95vh;
+    }
+    
+    h1 {
+        
+        position: absolute;
+        font-size: 4em;
+        font-weight: inherit;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 100;
+        margin: 0;
+        transition: opacity 5s;
+        text-align: center;
+        line-height: 1.2;
+        
+    }
+    
+}

@@ -1,0 +1,730 @@
+[
+    {
+        "question": {
+            "ar": "هل بإمكانك تخيل العالم بدون الدول؟",
+            "de": "Kannst du dir eine Welt ohne Nationalstaaten vorstellen?",
+            "el": "Μπορείτε να φανταστείτε έναν κόσμο χωρίς χώρες;",
+            "en": "Can you imagine a world without countries?",
+            "es": "¿Puedes imaginar un mundo sin países?",
+            "fr": "Peux-tu-imaginer un monde sans pays?",
+            "it": "Riesci a immaginare un mondo senza più paesi?",
+            "ja": "国境のない世界を想像することができますか？",
+            "ko": "국가가 없는 세상을 상상할 수 있습니까?",
+            "pl": "Czy wyobrażasz sobie świat bez podziału na państwa?",
+            "pt": "Você consegue imaginar um mundo sem países?",
+            "ru": "Вы можете представить себе мир без стран?",
+            "tr": "Ülkelerin olmadığı bir dünya düşünebiliyor musunuz?",
+            "zh": "你能否想象没有国别的世界？"
+        },
+        "left": {
+            "answer": {
+                "ar": "ل",
+                "de": "Ja",
+                "el": "Ναι",
+                "en": "Yes",
+                "es": "Sí",
+                "fr": "Oui",
+                "it": "Sì",
+                "ja": "はい",
+                "ko": "예",
+                "pl": "Tak",
+                "pt": "Sim",
+                "ru": "Да",
+                "tr": "Evet",
+                "zh": "是"
+            },
+            "uniform": "noise1Amount",
+            "min": 0.1,
+            "max": 0.5,
+            "extremeMax": 0.7
+        },
+        "right": {
+            "answer": {
+                "ar": "نعم",
+                "de": "Nein",
+                "el": "Όχι",
+                "en": "No",
+                "es": "No",
+                "fr": "Non",
+                "it": "No",
+                "ja": "いいえ",
+                "ko": "아니요",
+                "pl": "Nie",
+                "pt": "Não",
+                "ru": "Нет",
+                "tr": "Hayır",
+                "zh": "否"
+            },
+            "uniform": "wave1Amount",
+            "min": 0.1,
+            "max": 0.3,
+            "extremeMax": 0.3
+        }
+    },{
+        "question": {
+            "ar": "هل فكرة قارة مثل أوروبا...",
+            "de": "Ist die Idee eines Kontinents wie Europa ...",
+            "el": "Η ιδέα μιας ηπείρου, όπως η Ευρώπη είναι…",
+            "en": "Is the idea of a continent like Europe…",
+            "es": "La idea de un continente como Europa es...",
+            "fr": "L'idée d'un continent comme l'Europe est-elle…",
+            "it": "L'idea di un continente come l'Europa è...",
+            "ja": "ヨーロッパのような大陸という考え方は...",
+            "ko": "유럽과 같은 대륙 구분 개념에 대해 어떻게 생각하십니까?",
+            "pl": "Koncepcja takiego kontynentu jak Europa jest...",
+            "pt": "A ideia de um continente como a Europa é...",
+            "ru": "Идея об едином континенте, таком как Европа,...",
+            "tr": "Avrupa gibi bir kıta fikri sizce nasıl…",
+            "zh": "把欧洲视为一个大洲的想法…"
+        },
+        "left": {
+            "answer": {
+                "ar": "ملهمة",
+                "de": "Lächerlich",
+                "el": "Γελοία",
+                "en": "Ridiculous",
+                "es": "Ridícula",
+                "fr": "Ridicule",
+                "it": "Ridicola",
+                "ja": "馬鹿げている",
+                "ko": "어이 없음",
+                "pl": "Śmieszna",
+                "pt": "Ridícula",
+                "ru": "является<br>нелепой",
+                "tr": "Saçm",
+                "zh": "滑稽可笑"
+            },
+            "uniform": "speed1",
+            "baseMin": 0.1,
+            "min": 0.1,
+            "max": 1,
+            "extremeMax": 0.2
+        },
+        "right": {
+            "answer": {
+                "ar": "سخيفة",
+                "de": "Inspirierend",
+                "el": "Συναρπαστική",
+                "en": "Inspiring",
+                "es": "Inspiradora",
+                "fr": "Source<br>d'inspiration",
+                "it": "Fonte di<br>ispirazione",
+                "ja": "刺激的だ",
+                "ko": "충분히 동의함",
+                "pl": "Inspirująca",
+                "pt": "Inspiradora",
+                "ru": "вызывает вдохновение",
+                "tr": "İlham verici",
+                "zh": "振奋人心"
+            },
+            "uniform": "scale1",
+            "min": 0.1,
+            "max": 1,
+            "extremeMax": 2
+        }
+    },{
+        "question": {
+            "ar": "...يجب أن يكون العالم أكثر",
+            "de": "Die Welt sollte mehr von ... haben",
+            "el": "Ο κόσμος θα έπρεπε να είναι πιο…",
+            "en": "The world should be more…",
+            "es": "El mundo debería ser más...",
+            "fr": "Le monde devrait être plus…",
+            "it": "Il mondo dovrebbe essere più…",
+            "ja": "世界が目指すべき方向は...",
+            "ko": "내가 좋아하는 세상은?",
+            "pl": "Świat powinien przypominać bardziej...",
+            "pt": "O mundo devia ser mais…",
+            "ru": "Мир должен быть более похож на...",
+            "tr": "Dünyada daha çok olması gereken…",
+            "zh": "世界应该更加热衷于…"
+        },
+        "left": {
+            "answer": {
+                "ar": "#CallOfDuty",
+                "de": "#CallOfDuty",
+                "el": "#CallOfDuty",
+                "en": "#CallOfDuty",
+                "es": "#CallOfDuty",
+                "fr": "#CallOfDuty",
+                "it": "#CallOfDuty",
+                "ja": "#CallOfDuty",
+                "ko": "#CallOfDuty",
+                "pl": "#CallOfDuty",
+                "pt": "#CallOfDuty",
+                "ru": "#CallOfDuty",
+                "tr": "#CallOfDuty",
+                "zh": "#CallOfDuty"
+            },
+            "uniform": "light1Intensity",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 1.5
+        },
+        "right": {
+            "answer": {
+                "ar": "#KPop",
+                "de": "#KPop",
+                "el": "#KPop",
+                "en": "#KPop",
+                "es": "#KPop",
+                "fr": "#KPop",
+                "it": "#KPop",
+                "ja": "#KPop",
+                "ko": "#KPop",
+                "pl": "#KPop",
+                "pt": "#KPop",
+                "ru": "#KPop",
+                "tr": "#KPop",
+                "zh": "#KPop"
+            },
+            "uniform": "baseGreen",
+            "min": 0,
+            "max": 1
+        }
+    },{
+        "question": {
+            "ar": "من المتوقع أن يقدم جيلك حلاً لمشكلة تغير المناخ.",
+            "de": "Deine Generation wird den Klimawandel in den Griff bekommen.",
+            "el": "Η γενιά σας θα λύσει το πρόβλημα της κλιματικής αλλαγής.",
+            "en": "Your generation will solve the problem of climate change.",
+            "es": "Tu generación resolverá el problema del cambio climático.",
+            "fr": "Ta génération résoudra le problème du réchauffement climatique.",
+            "it": "La tua generazione risolverà il problema dei cambiamenti climatici.",
+            "ja": "自分の世代が気候変動問題を解決する。",
+            "ko": "기후 변화의 문제를 우리 세대에서 해결할 수 있습니까?",
+            "pl": "Twoje pokolenie rozwiąże problem zmian klimatycznych.",
+            "pt": "Sua geração vai resolver o problema da mudança climática.",
+            "ru": "Ваше поколение решит проблему изменения климата.",
+            "tr": "Sizin jenerasyonunuz iklim değişikliği sorununu çözecek.",
+            "zh": "气候变化问题将由你们这一代人解决。"
+        },
+        "left": {
+            "answer": {
+                "ar": "غير موافق",
+                "de": "Stimmt",
+                "el": "Συμφωνώ",
+                "en": "Agree",
+                "es": "Estoy de<br>acuerdo",
+                "fr": "D'accord",
+                "it": "Concordo",
+                "ja": "そう思う",
+                "ko": "동의함",
+                "pl": "Zgadzam się",
+                "pt": "Concordo",
+                "ru": "Соглашаюсь",
+                "tr": "Katılıyorum",
+                "zh": "同意"
+            },
+            "uniform": "baseBlue",
+            "min": 0,
+            "max": 1
+        },
+        "right": {
+            "answer": {
+                "ar": "موافق",
+                "de": "Stimmt<br>nicht",
+                "el": "Διαφωνώ",
+                "en": "Disagree",
+                "es": "No estoy<br>de acuerdo",
+                "fr": "Pas d'accord",
+                "it": "Non concordo",
+                "ja": "そう思わない",
+                "ko": "동의하지 않음",
+                "pl": "Nie zgadzam się",
+                "pt": "Discordo",
+                "ru": "Не соглашаюсь",
+                "tr": "Katılmıyorum",
+                "zh": "不同意"
+            },
+            "uniform": "light2Intensity",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 1.5
+        }
+    },{
+        "question": {
+            "ar": "...العالم يحتاج المزيد من",
+            "de": "Die Welt braucht mehr ...",
+            "el": "Ο κόσμος χρειάζεται περισσότερη (-ο)…",
+            "en": "The world needs more…",
+            "es": "El mundo necesita más...",
+            "fr": "Le monde a besoin de plus…",
+            "it": "Il mondo ha bisogno di più...",
+            "ja": "世界がより必要としているのは...",
+            "ko": "세계가 지금보다 어떤 식으로 변모해야 한다고 생각합니까?",
+            "pl": "Świat potrzebuje więcej...",
+            "pt": "O mundo necessita de mais…",
+            "ru": "Мир нуждается в большей степени...",
+            "tr": "Dünyanın daha çok ihtiyacı olan şey…",
+            "zh": "世界需要更多…"
+        },
+        "left": {
+            "answer": {
+                "ar": "السيطرة",
+                "de": "Anarchie",
+                "el": "Αναρχία",
+                "en": "Anarchy",
+                "es": "Anarquía",
+                "fr": "D'anarchie",
+                "it": "Anarchia",
+                "ja": "無秩序",
+                "ko": "자유 보장",
+                "pl": "Anarchii",
+                "pt": "Anarquia",
+                "ru": "анархии",
+                "tr": "Anarşi",
+                "zh": "无政府主义"
+            },
+            "uniform": "baseRed",
+            "min": 0,
+            "max": 1
+        },
+        "right": {
+            "answer": {
+                "ar": "الفوضى",
+                "de": "Kontrolle",
+                "el": "Έλεγχο",
+                "en": "Control",
+                "es": "Control",
+                "fr": "De règles",
+                "it": "Controllo",
+                "ja": "統制",
+                "ko": "질서 유지",
+                "pl": "Kontroli",
+                "pt": "Controle",
+                "ru": "контроля",
+                "tr": "Kontrol",
+                "zh": "控制"
+            },
+            "uniform": "haloAmount",
+            "min": 0,
+            "max": 1
+        }
+    },{
+        "question": {
+            "ar": "قد يكون لديك علاقة عاطفية مع إنسان آلي.",
+            "de": "Würdest du eine Liebesbeziehung mit einem Roboter eingehen?",
+            "el": "Θα κάνατε σχέση με ένα ρομπότ.",
+            "en": "You would have a romantic relationship with a robot.",
+            "es": "Tendrías una relación amorosa con un robot.",
+            "fr": "Tu pourrais avoir une relation romantique avec un robot.",
+            "it": "Avresti una relazione romantica con un robot.",
+            "ja": "ロボットと恋愛関係が持てるようになると思う。",
+            "ko": "나는 로봇과 로맨틱한 관계를 맺을 수 있다.",
+            "pl": "Czy nawiązał(a)byś relacje uczuciowe z robotem?",
+            "pt": "Você teria uma relação romântica com um robô.",
+            "ru": "У вас получились бы романтические отношения с роботом.",
+            "tr": "Bir robotla romantik bir ilişki yaşardınız.",
+            "zh": "你愿意与机器人谈一场恋爱。"
+        },
+        "left": {
+            "answer": {
+                "ar": "ل",
+                "de": "Ja",
+                "el": "Ναι",
+                "en": "Yes",
+                "es": "Sí",
+                "fr": "Oui",
+                "it": "Sì",
+                "ja": "はい",
+                "ko": "예",
+                "pl": "Tak",
+                "pt": "Sim",
+                "ru": "Да",
+                "tr": "Evet",
+                "zh": "是"
+            },
+            "uniform": "scale2",
+            "min": 0.1,
+            "max": 1,
+            "extremeMax": 1.5
+        },
+        "right": {
+            "answer": {
+                "ar": "نعم",
+                "de": "Nein",
+                "el": "Όχι",
+                "en": "No",
+                "es": "No",
+                "fr": "Non",
+                "it": "No",
+                "ja": "いいえ",
+                "ko": "아니요",
+                "pl": "Nie",
+                "pt": "Não",
+                "ru": "Нет",
+                "tr": "Hayır",
+                "zh": "否"
+            },
+            "uniform": "speed2",
+            "baseMin": 0.1,
+            "min": 0.1,
+            "max": 1,
+            "extremeMax": 0.2
+        }
+    },{
+        "question": {
+            "ar": "...أعيش في",
+            "de": "Ich lebe in meinem ...",
+            "el": "Ζω στο (στη) δικό (δική) μου...",
+            "en": "I live in my...",
+            "es": "Vivo en...",
+            "fr": "J'habite dans mon...",
+            "it": "Vivo nel mio...",
+            "ja": "自分は...",
+            "ko": "내가 더 소속감을 느끼는 곳은?",
+            "pl": "Żyję w...",
+            "pt": "Eu vivo na/no...",
+            "ru": "Я живу в...",
+            "tr": "Yaşadığım yer...",
+            "zh": "我生活于我的…"
+        },
+        "left": {
+            "answer": {
+                "ar": "الدولة",
+                "de": "Internet",
+                "el": "Internet",
+                "en": "Internet",
+                "es": "Internet",
+                "fr": "Internet",
+                "it": "Internet",
+                "ja": "インターネットの住人",
+                "ko": "인터넷",
+                "pl": "Internecie",
+                "pt": "Internet",
+                "ru": "моем Интернете",
+                "tr": "İnternet",
+                "zh": "网络空间"
+            },
+            "uniform": "pointsAmount",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 1.2
+        },
+        "right": {
+            "answer": {
+                "ar": "الإنترنت",
+                "de": "Land",
+                "el": "Χώρα",
+                "en": "Country",
+                "es": "Mi país",
+                "fr": "Pays",
+                "it": "Paese",
+                "ja": "国の住人",
+                "ko": "국가",
+                "pl": "Kraju",
+                "pt": "País",
+                "ru": "моей стране",
+                "tr": "Ülkem",
+                "zh": "国家"
+            },
+            "uniform": "divideAmount",
+            "min": 0,
+            "max": 0.4,
+            "extremeMax": 0.8
+        }
+    },{
+        "question": {
+            "ar": "...هل أنت",
+            "de": "Du bist ...",
+            "el": "Είστε..",
+            "en": "Are you...",
+            "es": "Eres...",
+            "fr": "Es-tu plutôt...",
+            "it": "Sei più incline verso...",
+            "ja": "自分は...",
+            "ko": "나의 성향은?",
+            "pl": "Skłaniasz się bardziej ku...",
+            "pt": "Você é..",
+            "ru": "Вы...",
+            "tr": "Sizi tanımlayan...",
+            "zh": "你崇尚…"
+        },
+        "left": {
+            "answer": {
+                "ar": "سريالية",
+                "de": "Bauhaus",
+                "el": "Bauhaus",
+                "en": "Bauhaus",
+                "es": "Bauhaus",
+                "fr": "Bauhaus",
+                "it": "Bauhaus",
+                "ja": "バウハウス",
+                "ko": "실용주의자",
+                "pl": "Bauhausowi",
+                "pt": "Bauhaus",
+                "ru": "баухауз",
+                "tr": "Bauhaus",
+                "zh": "包豪斯 "
+            },
+            "uniform": "absBlend",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 1.2
+        },
+        "right": {
+            "answer": {
+                "ar": "باوهاوس",
+                "de": "Surrealismus",
+                "el": "Σουρεαλισμός",
+                "en": "Surrealism",
+                "es": "Surrealismo",
+                "fr": "Surréalisme",
+                "it": "Surrealismo",
+                "ja": "シュルレアリスム",
+                "ko": "초현실주의자",
+                "pl": "Surrealizmowi",
+                "pt": "Surrealismo",
+                "ru": "сюрреализм",
+                "tr": "Sürrealizm",
+                "zh": "超现实主义"
+            },
+            "uniform": "twistAmount",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 2
+        }
+    },{
+        "question": {
+            "ar": "…تتكون شخصيتك في ظل تأثير",
+            "de": "Du bist, wer du bist, aufgrund deiner…",
+            "el": "Η προσωπικότητά σας οφείλεται στις δικές σας…",
+            "en": "Your personality is because of your...",
+            "es": "Tu personalidad se basa en tus...",
+            "fr": "Ta personnalité est le résultat de tes…",
+            "it": "La tua personalità è il risultato delle tue…",
+            "ja": "人格を形成するのは自分の...",
+            "ko": "내 성격에 가장 큰 영향을 미친 요소는 무엇입니까?",
+            "pl": "Swoją osobowość zawdzięczasz…",
+            "pt": "Sua personalidade se deve às suas…",
+            "ru": "Ваша личность сформировалась из-за вашего…",
+            "tr": "Kişiliğinizin kaynağı sizin…",
+            "zh": "你的个性源自你的…"
+        },
+        "left": {
+            "answer": {
+                "ar": "اختياراتك",
+                "de": "Herkunft",
+                "el": "Ρίζες",
+                "en": "Origins",
+                "es": "Orígenes",
+                "fr": "Origines",
+                "it": "Origini",
+                "ja": "生まれ",
+                "ko": "자라난 환경",
+                "pl": "Pochodzeniu",
+                "pt": "Origens",
+                "ru": "происхождения",
+                "tr": "Kökleriniz",
+                "zh": "天性"
+            },
+            "uniform": "rotateX",
+            "baseMin": 0.1,
+            "min": 0.1,
+            "max": 2,
+            "extremeMax": 0.1
+        },
+        "right": {
+            "answer": {
+                "ar": "أصلك",
+                "de": "Entscheidungen",
+                "el": "Επιλογές",
+                "en": "Choices",
+                "es": "Decisiones",
+                "fr": "Choix",
+                "it": "Scelte",
+                "ja": "好み",
+                "ko": "나의 선택",
+                "pl": "Wyborom",
+                "pt": "Escolhas",
+                "ru": "выбора",
+                "tr": "Seçimleriniz",
+                "zh": "抉择"
+            },
+            "uniform": "marbleAmount",
+            "min": 0,
+            "max": 1
+        }
+    },{
+        "question": {
+            "ar": "يمتلك كل من الفنون والتصميم القوة لإزالة الخوف.",
+            "de": "Kunst & Design haben das Potenzial, Angst zu überwinden.",
+            "el": "Θα μετακομίζατε στον Άρη;",
+            "en": "Art & Design has the power to remove fear.",
+            "es": "El arte y el diseño tienen el poder de quitar el miedo.",
+            "fr": "L'art et le design ont le pouvoir de suspendre la peur.",
+            "it": "Arte & Design hanno bisogno di confini per prosperare",
+            "ja": "アート＆デザインには恐怖を取り除く力がある。",
+            "ko": "미술과 디자인은 두려움을 제거할 수 있는 힘을 갖추고 있다.",
+            "pl": "Sztuka i wzornictwo mają moc, by pokonywać strach.",
+            "pt": "Arte & Design têm o poder de remover o medo.",
+            "ru": "Искусство и дизайн в силе устранить страх.",
+            "tr": "Sanat ve tasarım, korkuları yok etme gücüne sahiptir.",
+            "zh": "艺术与设计拥有消除恐惧的力量。"
+        },
+        "left": {
+            "answer": {
+                "ar": "غير موافق",
+                "de": "Stimmt",
+                "el": "Συμφωνώ",
+                "en": "Agree",
+                "es": "Estoy de<br>acuerdo",
+                "fr": "D'accord",
+                "it": "Concordo",
+                "ja": "そう思う",
+                "ko": "동의함",
+                "pl": "Zgadzam się",
+                "pt": "Concordo",
+                "ru": "Соглашаюсь",
+                "tr": "Katılıyorum",
+                "zh": "同意"
+            },
+            "uniform": "oiliness",
+            "min": 0,
+            "max": 1,
+            "extremeMax": 1.5
+        },
+        "right": {
+            "answer": {
+                "ar": "موافق",
+                "de": "Stimmt<br>nicht",
+                "el": "Διαφωνώ",
+                "en": "Disagree",
+                "es": "No estoy<br>de acuerdo",
+                "fr": "Pas d'accord",
+                "it": "Non concordo",
+                "ja": "そう思わない",
+                "ko": "동의하지 않음",
+                "pl": "Nie zgadzam się",
+                "pt": "Discordo",
+                "ru": "Не соглашаюсь",
+                "tr": "Katılmıyorum",
+                "zh": "不同意"
+            },
+            "uniform": "rotateY",
+            "baseMin": 0.1,
+            "min": 0.1,
+            "max": 2,
+            "extremeMax": 0.3
+        }
+    },{
+        "question": {
+            "ar": "هل أنت متفتح بشكل كاف ليتم تعزيزك بالأدوية والتقنيات الحديثة لتكون أقوى وأذكى؟",
+            "de": "Stehst du der Idee, optimiert durch Drogen und Technologie stärker und intelligenter zu werden, offen gegenüber?",
+            "el": "Θα θέλατε να \"βελτιωθείτε\" με φάρμακα και τεχνολογία για να γίνετε δυνατότεροι και εξυπνότεροι;",
+            "en": "Are you open to being enhanced by drugs and technology to be stronger and smarter?",
+            "es": "¿Estarías dispuesto a que te estimularan mediante fármacos y tecnología para que fueras más fuerte e inteligente?",
+            "fr": "Es-tu prêt(e) à augmenter tes capacités physiques et intellectuelles à l'aide de drogues ou par des moyens technologiques?",
+            "it": "Sei propenso a migliorare la tua forza e la tua intelligenza mediante farmaci e tecnologia?",
+            "ja": "国籍の代わりにデジタル市民制度を導入すべきた。",
+            "ko": "약물과 기술로 신체적, 정신적으로 더욱 강해지는 것을 거부감 없이 받아들일 수 있습니까?",
+            "pl": "Czy poddał(a)byś się zwiększeniu siły i inteligencji z pomocą leków i technologii?",
+            "pt": "Você aceitaria ser reforçada por drogas e tecnologia para ser mais forte e mais inteligente?",
+            "ru": "Поддерживаете ли вы идею, чтобы с целью повышения физической силы и интеллекта людей можно было совершенствовать при помощи медикаментов и технологий?",
+            "tr": "Daha güçlü ve akıllı olmak için ilaçlardan ve teknolojiden yararlanmaya açık mısınız?",
+            "zh": "你能否接受借助药物和技术手段提升自己，从而变得更强壮、更聪明？"
+        },
+        "left": {
+            "answer": {
+                "ar": "نعم",
+                "de": "Nein",
+                "el": "Όχι",
+                "en": "No",
+                "es": "No",
+                "fr": "Non",
+                "it": "No",
+                "ja": "いいえ",
+                "ko": "아니요",
+                "pl": "Nie",
+                "pt": "Não",
+                "ru": "Нет",
+                "tr": "Hayır",
+                "zh": "否"
+            },
+            "uniform": "symmetryAmount",
+            "min": 0,
+            "max": 1
+        },
+        "right": {
+            "answer": {
+                "ar": "ل",
+                "de": "Ja",
+                "el": "Ναι",
+                "en": "Yes",
+                "es": "Sí",
+                "fr": "Oui",
+                "it": "Sì",
+                "ja": "はい",
+                "ko": "예",
+                "pl": "Tak",
+                "pt": "Sim",
+                "ru": "Да",
+                "tr": "Evet",
+                "zh": "是"
+            },
+            "uniform": "gridAmount",
+            "min": 0,
+            "max": 1
+        }
+    },{
+        "question": {
+            "ar": "بعد 2000 عام من الآن لن تعد المفاهيم المتعلقة بالنوع وممارسة الجنس موجودة بعد ذلك.",
+            "de": "In 2000 Jahren werden die Konzepte von Geschlecht und Sexualität überholt sein.",
+            "el": "Σε 2.000 χρόνια οι έννοιες φύλο και σεξουαλικότητα δεν θα έχουν πια καμία σημασία.",
+            "en": "In 2000 years time the concepts of gender and sexuality will no longer be relevant.",
+            "es": "Dentro de 2000 años, los conceptos de género y sexualidad ya no serán relevantes.",
+            "fr": "Dans 2000 ans, les notions de genre et de sexualité ne seront plus pertinentes.",
+            "it": "Fra 2000 anni i concetti di genere e sessualità non avranno più alcuna rilevanza.",
+            "ja": "2000年後の世界では、ジェンダーとセクシュアリティという概念は意味を持たなくなっている。",
+            "ko": "약 2,000년이 지나면 성별과 성적 취향은 더 이상 큰 의미가 없게 된다.",
+            "pl": "Za 2000 lat pojęcia płci i seksualności nie będą miały znaczenia.",
+            "pt": "Daqui a 2000 anos os conceitos de gênero e sexualidade deixarão de ser relevantes.",
+            "ru": "Через 2000 лет концепция полов и сексуальной ориентации больше не будет актуальной.",
+            "tr": "2000 yıl sonra cinsiyet ve cinsellik kavramları artık söz konusu olmayacak.",
+            "zh": "2000 年后，性别与性取向的概念将不再相关联。"
+        },
+        "left": {
+            "answer": {
+                "ar": "غير موافق",
+                "de": "Stimmt",
+                "el": "Συμφωνώ",
+                "en": "Agree",
+                "es": "Estoy de<br>acuerdo",
+                "fr": "D'accord",
+                "it": "Concordo",
+                "ja": "そう思う",
+                "ko": "동의함",
+                "pl": "Zgadzam się",
+                "pt": "Concordo",
+                "ru": "Соглашаюсь",
+                "tr": "Katılıyorum",
+                "zh": "同意"
+            },
+            "uniform": "scalesAmount",
+            "min": 0,
+            "max": 1
+        },
+        "right": {
+            "answer": {
+                "ar": "موافق",
+                "de": "Stimmt<br>nicht",
+                "el": "Διαφωνώ",
+                "en": "Disagree",
+                "es": "No estoy<br>de acuerdo",
+                "fr": "Pas d'accord",
+                "it": "Non concordo",
+                "ja": "そう思わない",
+                "ko": "동의하지 않음",
+                "pl": "Nie zgadzam się",
+                "pt": "Discordo",
+                "ru": "Не соглашаюсь",
+                "tr": "Katılmıyorum",
+                "zh": "不同意"
+            },
+            "uniform": "blindsAmount",
+            "min": 0,
+            "max": 1
+        }
+    }
+]

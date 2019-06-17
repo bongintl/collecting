@@ -1,0 +1,87 @@
+.grid {
+    
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+    
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    
+    &__item {
+        
+        position: relative;
+        float: left;
+        margin-left: $gutter;
+        margin-right: $gutter;
+        
+        width: 100% - $gutter * 2;
+        
+        margin-top: $gutter;
+        margin-bottom: $gutter;
+        
+        .main_home & {
+            
+            margin-top: $vertical-spacing / 2;
+            margin-bottom: $vertical-spacing / 2;
+            
+            @include desktop {
+                margin-top: $vertical-spacing / 3;
+                margin-bottom: $vertical-spacing / 3;
+            }
+            
+        }
+        
+        &_2,
+        &_3 {
+            width: 50% - $gutter * 2;
+        }
+        
+        &_3 {
+            @include desktop {
+                width: 33.333% - $gutter * 2;
+            }
+        }
+        
+        &_text,
+        &_title {
+            border: 1px solid black;
+            text-align: center;
+            display: table;
+            & > * {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+        
+        &_text {
+            padding: 2em;
+        }
+        
+        &_title {
+            padding: 1em;
+            span {
+                padding: 1em 0;
+            }
+        }
+        
+        &_video {
+            
+            video {
+                width: 100%;
+            }
+            
+        }
+        
+        &_image {
+            
+            img {
+                width: 100%;
+            }
+            
+        }
+        
+    }
+    
+}

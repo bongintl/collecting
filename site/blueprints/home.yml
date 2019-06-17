@@ -1,0 +1,11 @@
+title: Exhibition
+
+pages: false
+
+files: true
+
+fields:
+
+    introduction:
+        label: Introduction
+        type: textarea
